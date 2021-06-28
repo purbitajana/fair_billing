@@ -1,4 +1,4 @@
-# fair_billing
+# fair_billing: Execution Steps
 
 Please follow the below steps to build and execute:
 
@@ -16,5 +16,10 @@ Please follow the below steps to build and execute:
        javac -d .\bin -cp bin;lib\junit-4.13.2.jar;lib\hamcrest-core-1.3.jar;. src\test\com\bt\asmt\FairBillingTests.java
   
   3.2. Please execute the below command to run the test cases:
-  
-       java -cp bin;lib\junit-4.13.2.jar;;lib\hamcrest-core-1.3.jar;. org.junit.runner.JUnitCore test.com.bt.asmt.FairBillingTests
+   Windows:
+       
+       java -cp bin;lib\junit-4.13.2.jar;lib\hamcrest-core-1.3.jar;. org.junit.runner.JUnitCore test.com.bt.asmt.FairBillingTests
+       
+   Linux:
+   
+      java -cp bin:lib\junit-4.13.2.jar:lib\hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore test.com.bt.asmt.FairBillingTests
