@@ -2,7 +2,7 @@
 
 Please follow the below steps to build and execute:
 
-1. Please execute the below command for compilation from within fair_billing directory:
+1. Please go inside the downloaded fair_billing directory and execute the below command for compilation:
   
         javac -d .\bin src\main\com\bt\asmt\constant\*.java src\main\com\bt\asmt\enums\*.java src\main\com\bt\asmt\exception\*.java src\main\com\bt\asmt\model\*.java src\main\com\bt\asmt\util\*.java  src\main\com\bt\asmt\service\*.java src\main\com\bt\asmt\*.java
 
